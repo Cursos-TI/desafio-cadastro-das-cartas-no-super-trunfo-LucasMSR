@@ -2,7 +2,8 @@
 
 int main()
 {
-    printf("Carta 1: \n");
+// Primeira Carta
+   printf("CARTA 1 \n");
     
     char estado = 'A';
     char codigo [4] = "A01";
@@ -11,15 +12,35 @@ int main()
     float area = 1550.90;
     float pib = 750.355;
     int pontosTuristicos = 40;
-
+    
     printf("Estado: %c\n" ,estado);
     printf("Código: %s\n" ,codigo);
     printf("Cidade: %s\n" ,cidade);
     printf("População %d\n" ,populacao);
-    printf("Área: %g\n" ,area);
-    printf("PIB: %f\n" ,pib);
+    printf("Área: %.2f\n" ,area);
+    printf("PIB: %.2f\n" ,pib);
     printf("Pontos Turísticos: %d\n" ,pontosTuristicos);
 
+
+
+// Segunda Carta
+    printf("CARTA 2 \n");
+    
+    char estado2 = 'B';
+    char codigo2 [4] = "B02";
+    char cidade2 [10] = ("Fortaleza");
+    int populacao2 = 200000;
+    float area2 = 4350.65;
+    float pib2 = 130.780;
+    int pontosTuristicos2 = 17;
+
+    printf("Estado: %c\n" ,estado2);
+    printf("Código: %s\n" ,codigo2);
+    printf("Cidade: %s\n" ,cidade2);
+    printf("População: %d\n" ,populacao2);
+    printf("Área: %.2f\n" ,area2);
+    printf("PIB: %2.f\n" ,pib2);
+    printf("Pontos Turísticos: %d\n" ,pontosTuristicos2);
 
     return 0;
 }
